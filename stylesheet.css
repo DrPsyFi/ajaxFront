@@ -1,0 +1,43 @@
+.jumbotron {
+  height: 1300px;
+}
+img {
+  margin-left: 40px;
+  height: 800px;
+  width: 800px;
+}
+
+#main {
+  color: red;
+  font-size: 70px;
+  font-weight: bold;
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: black;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+#sayIt.center {
+  margin-left: 325px;
+  margin-right: 375px;
+  padding-bottom: 20px;
+  color: black;
+  outline: black 2px;
+}
+
+.form-group {
+  color:red;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-right: 75px;
+  padding-bottom: 20px;
+}
+
+#postIt {
+  color: black;
+  outline: black 2px;
+}
+
+.hide {
+  display: none;
+}
