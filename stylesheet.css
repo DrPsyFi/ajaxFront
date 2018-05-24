@@ -1,30 +1,35 @@
-.jumbotron {
-  height: 1300px;
-}
-img {
-  margin-left: 40px;
-  height: 800px;
-  width: 800px;
+body {
+  background: #484545;
 }
 
 #main {
+  background-color: #42333e;
+  text-align: center;
   color: red;
   font-size: 70px;
   font-weight: bold;
+  margin-bottom: 40px;
 -webkit-text-stroke-width: 3px;
 -webkit-text-stroke-color: black;
-  margin-left: 40px;
-  margin-bottom: 40px;
 }
 
-#sayIt.center {
-  margin-left: 325px;
-  margin-right: 375px;
-  padding-bottom: 20px;
-  color: black;
-  outline: black 2px;
+#sayIt {
+  color: red;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 20px;
 }
 
+.btn-danger.btn-outline {
+  color: red;
+  background:red}
+
+.bg {
+    background-image: url("./talk.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .form-group {
   color:red;
   font-size: 40px;
@@ -34,10 +39,63 @@ img {
 }
 
 #postIt {
+  margin: 20px;
   color: black;
   outline: black 2px;
 }
 
 .hide {
   display: none;
+}
+
+#rowTwoDiv {
+  justify-content: space-around;
+  height: 800px;
+}
+
+#history {
+  font-size: 25px;
+}
+
+/* #post {
+  min-height: 900px;
+  margin: 20px;
+  align-content:space-between;
+} */
+
+h1  {
+  height: 60px;
+  color: red;
+  text-align: center;
+  background-color: black;
+  font-size: 40px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#buttonBox1 {
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  align-content: space-around
+}
+
+
+#buttonBox2 {
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  align-content: space-around
+}
+.btn {
+  margin: 10px;
+}
+.col-md-4 {
+  margin-top: 50px;
+}
+
+#updateMessage {
+
 }
